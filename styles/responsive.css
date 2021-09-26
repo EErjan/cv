@@ -1,0 +1,143 @@
+@media (max-width: 1300px) {
+    .container {
+        max-width: 991px;
+    }
+}
+
+@media (max-width: 991px) {
+    .container {
+        max-width: 100%;
+        padding: 0 30px;
+    }
+
+    .card__content-title {
+        font-size: 22px;
+    }
+
+    .card__content-text {
+        font-size: 14px;
+    }
+
+    .portfolio {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .about__content {
+        padding: 0 20px;
+    }
+
+    .services {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .contacts__wrap {
+        grid-gap: 30px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .header__menu-link {
+        font-size: 16px;
+    }
+
+    .header__menu-item {
+        margin: 0 10px;
+    }
+
+    .header__banner-title {
+        font-size: 48px;
+    }
+
+    .header__banner-title .main-title {
+        font-size: 22px;
+    }
+
+    .my-resume__item {
+        padding: 20px;
+    }
+
+    .my-resume__item-description {
+        font-size: 14px;
+    }
+
+    .my-resume__item-title {
+        font-size: 18px;
+    }
+
+    .about {
+        grid-template-columns: 1fr;
+    }
+
+    .about__photo {
+        max-width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .services {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 500px) {
+    .header__menu-item {
+        margin: 0 5px;
+    }
+
+    .header__menu-link {
+        font-size: 14px;
+    }
+
+    .header__menu {
+        flex-wrap: wrap;
+        padding: 10px 0;
+    }
+
+    .portfolio {
+        grid-template-columns: 1fr;
+    }
+
+    .card__content {
+        padding-bottom: 0;
+    }
+
+    .my-resume {
+        grid-template-columns: 1fr;
+    }
+
+    .about__contetn-buttons {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 15px;
+    }
+
+    .about__content .main-btn {
+        margin-right: 0;
+    }
+
+    .about__content {
+        padding: 0;
+    }
+
+    .contacts__wrap {
+        grid-template-columns: 1fr;
+    }
+
+    .section {
+        padding: 30px 0;
+    }
+
+    .section__top-title {
+        font-size: 26px;
+    }
+
+    .my-resume__title {
+        font-size: 22px;
+    }
+
+    .section__top {
+        margin-bottom: 30px;
+    }
+}
